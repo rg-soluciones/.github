@@ -1,6 +1,6 @@
 name: Fallo
 description: Algo que no funciona como debería
-labels: ["fallo"]
+labels: ["incidencia"]
 body:
   - type: textarea
     id: que-pasa
