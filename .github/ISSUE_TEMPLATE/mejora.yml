@@ -1,0 +1,14 @@
+name: Mejora
+description: Algo nuevo o un cambio en lo que ya existe
+labels: ["mejora"]
+body:
+  - type: textarea
+    id: para-que
+    attributes:
+      label: Para qué
+      description: Qué problema resuelve y a quién (hostelero, técnico, cliente…).
+    validations: { required: true }
+  - type: textarea
+    id: idea
+    attributes:
+      label: Cómo lo imaginas
